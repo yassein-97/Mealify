@@ -187,6 +187,9 @@
 
   }
 /*genral style*/
+html{
+    scroll-padding-top: 82px;
+}
 * {
     padding: 0;
     margin: 0;
@@ -290,7 +293,7 @@ ul {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 25px 5px;
+    padding: 0px 5px;
     align-items: center;
 }
 
@@ -409,7 +412,7 @@ ul {
 .nav-links a.active::after {
     content: '';
     position: absolute;
-    width: 50px;
+    width: 70%;
     height: 3px;
     background-color: #ce1212;
     top: 90%;
@@ -768,7 +771,9 @@ ul {
     right: 10px;
     transform: translateX(51px);
 }
-
+.card-img .social-media-layer ul{
+    padding: 0;
+}
 .card-img .social-media-layer ul li {
     padding: 10px;
 }
